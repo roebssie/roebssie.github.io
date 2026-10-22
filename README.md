@@ -9,7 +9,7 @@ Add this to the middle of your main GitHub profile `README.md` after the site is
 ```md
 ## Explore my digital CV
 
-I built a live, interactive version of my CV — [visit my personal webpage](YOUR-GITHUB-PAGES-URL).
+I built a live, interactive version of my CV — [visit my personal webpage](https://roebssie.github.io).
 ```
 
-The final URL will be added once the GitHub username and repository are confirmed.
+The live site is published at https://roebssie.github.io.
