@@ -1,15 +1,14 @@
-# Roebin Uys Personal CV
+# Roebin Uys — Digital CV & Portfolio
 
-This folder is ready to upload to a GitHub Pages repository. Keep `index.html`, `styles.css`, `script.js`, and `headshot.jpg` together in the same published folder.
+My interactive CV and portfolio is live at [roebssie.github.io](https://roebssie.github.io/).
 
-## Profile README link
+The site is built with HTML, CSS and vanilla JavaScript. It presents my background, skills, selected projects and contact details, with keyboard-accessible section tabs, light and dark themes, and responsive layouts.
 
-Add this to the middle of your main GitHub profile `README.md` after the site is published:
+## Source files
 
-```md
-## Explore my digital CV
+- `index.html` — page content and CV sections
+- `styles.css` — layout, themes and responsive styling
+- `script.js` — section navigation, keyboard controls and theme toggle
+- `headshot.jpg` — profile image used on the page
 
-I built a live, interactive version of my CV — [visit my personal webpage](https://roebssie.github.io).
-```
-
-The live site is published at https://roebssie.github.io.
+The site has no build step or external JavaScript dependencies. Open `index.html` in a browser to view a local copy; the published version is available at [roebssie.github.io](https://roebssie.github.io/).
