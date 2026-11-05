@@ -27,3 +27,4 @@ body.light .tab{color:#4a5862}body.light .tab:hover{color:#283640}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}}
 
 body.light .recent-skills-panel .language-strip p{color:#c3cdd2}
+@media(min-width:821px){body.light .profile-sidebar{border-bottom-right-radius:22px}}
