@@ -32,3 +32,5 @@ body.light .recent-skills-panel .language-strip p{color:#c3cdd2}
 body.light .recent-skills-panel .language-strip strong{color:#9ee66b}
 body.light .language-strip p{color:#52636c}
 body.light .language-strip b{color:#233248}
+.recent-skills-panel{padding:0 20px 28px}
+.recent-skills-panel .language-strip{padding:18px 16px}
