@@ -28,3 +28,5 @@ body.light .tab{color:#4a5862}body.light .tab:hover{color:#283640}
 
 body.light .recent-skills-panel .language-strip p{color:#c3cdd2}
 @media(min-width:821px){body.light .profile-sidebar{border-bottom-right-radius:22px}}
+.recent-skills-panel .language-strip{margin-top:0;padding:18px 20px;border:1px solid #3f5360;border-top:1px solid #3f5360;border-radius:18px;background:#223448}
+body.light .recent-skills-panel .language-strip strong{color:#9ee66b}
