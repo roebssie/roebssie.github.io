@@ -97,3 +97,9 @@ body.light .recent-skill-item{border-color:rgba(16,24,32,.24)}
 body.light .recent-skill-item h4,body.light .recent-skill-item p{color:#101820}
 @media(max-width:820px){.recent-skills-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.recent-skills-panel .language-strip{padding:16px}}
 @media(max-width:560px){.recent-skills-grid{grid-template-columns:1fr;gap:12px}.recent-skills-panel .language-strip{padding:16px}}
+
+/* Give the profile column its own rounded card and align its lower edge with About cards. */
+.profile-sidebar{border-radius:22px}
+@media(min-width:821px){.profile-sidebar{margin-bottom:var(--page-bottom-space)}}
+@media(max-width:820px){.profile-sidebar{margin-bottom:0}}
+@media(max-width:560px){.profile-sidebar{border-radius:22px}}
