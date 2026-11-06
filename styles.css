@@ -114,3 +114,8 @@ body.light .social-row a:hover{color:#101820;border-color:#6f82ed}
 .recent-skills-grid{row-gap:18px}
 .recent-skill-item{padding-top:10px}
 @media(max-width:560px){.recent-skills-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.social-row{margin-top:14px}}
+
+/* On the light Recent Skills card, keep headings silver-white and copy/dividers dark. */
+body.light .recent-skills-panel .language-strip>strong,
+body.light .recent-skills-panel .recent-skill-item h4{color:#f5f7fa}
+body.light .recent-skills-panel .recent-skill-item{border-color:rgba(16,24,32,.5)}
