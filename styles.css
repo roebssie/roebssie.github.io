@@ -162,3 +162,10 @@ body.light .sidebar-rule{background:#4f5e68}
 /* Keep Recent Skills separators bright in dark mode and dark in light mode. */
 .recent-skills-panel .recent-skill-item{border-color:rgba(255,255,255,.55)}
 body.light .recent-skills-panel .recent-skill-item{border-color:rgba(16,24,32,.5)}
+
+/* Make the WhatsApp and address marks as legible as the profile logos. */
+.quick-links .whatsapp-icon svg{width:19px;height:19px;display:block;overflow:visible}
+.quick-links .whatsapp-icon .whatsapp-bubble{fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.quick-links .whatsapp-icon .whatsapp-phone{fill:currentColor}
+.quick-links .location-icon svg{width:17px;height:17px;display:block;fill:currentColor}
+.role .degree-note{display:block;margin-top:4px;font-size:10px;line-height:1.4;font-weight:500}
