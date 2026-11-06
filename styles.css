@@ -60,3 +60,24 @@ body.light .recent-skills-panel .language-strip{background:#6f82ed;border-color:
 body.light .recent-skills-panel .language-strip strong,
 body.light .recent-skills-panel .language-strip b,
 body.light .recent-skills-panel .language-strip p{color:#101820}
+
+/* Smooth the sidebar-to-content corner and use matching page gutters. */
+:root{--page-gutter:32px;--page-bottom-space:32px;--card-inset:16px}
+.profile-sidebar{padding:32px 24px 28px;border-bottom-right-radius:22px}
+.content-panel{padding:0 var(--page-gutter) var(--page-bottom-space)}
+.top-row{margin-bottom:32px}
+.service-grid article,.project-list article{padding:var(--card-inset)}
+@media(max-width:820px){
+  :root{--page-gutter:24px;--page-bottom-space:24px}
+  .profile-sidebar{padding:28px 24px 24px}
+  .top-row{margin-bottom:24px}
+}
+@media(max-width:560px){
+  :root{--page-gutter:16px;--page-bottom-space:20px}
+  .cyan-stage{padding:16px 8px}
+  .profile-sidebar{padding:24px 20px;border-bottom-right-radius:18px}
+  body.light .profile-sidebar{border-bottom-right-radius:18px}
+  .content-panel{padding:0 var(--page-gutter) var(--page-bottom-space)}
+  .recent-skills-panel{padding:0 16px 20px}
+  .recent-skills-panel .language-strip{padding:16px}
+}
