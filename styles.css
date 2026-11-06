@@ -34,3 +34,29 @@ body.light .language-strip p{color:#52636c}
 body.light .language-strip b{color:#233248}
 .recent-skills-panel{padding:0 20px 28px}
 .recent-skills-panel .language-strip{padding:18px 16px}
+
+/* Consistent CV spacing and readable Recent Skills copy */
+:root{--cv-space-1:8px;--cv-space-2:12px;--cv-space-3:16px;--cv-space-4:24px;--cv-space-5:32px}
+.content-panel{padding:0 var(--cv-space-5) var(--cv-space-5)}
+.top-row{margin-bottom:var(--cv-space-5)}
+.panel-heading{margin-bottom:20px}
+.content-panel h3{margin:var(--cv-space-4) 0 var(--cv-space-2)}
+.service-grid{gap:var(--cv-space-2)}
+.service-grid article{padding:var(--cv-space-3)}
+.resume-row{padding-bottom:20px;margin-bottom:20px}
+.project-list{gap:var(--cv-space-2)}
+.project-list article{gap:var(--cv-space-2);padding:var(--cv-space-3)}
+.note-card{padding:20px}
+.recent-skills-panel{padding:0 20px 24px}
+.recent-skills-panel .language-strip{padding:var(--cv-space-3)}
+.recent-skills-panel .language-strip p{font-size:12px!important;line-height:1.5!important;margin:var(--cv-space-2) 0;color:#c3cdd2}
+body.light .recent-skills-panel .language-strip p{color:#c3cdd2}
+body.light .recent-skills-panel .language-strip b{color:#fff}
+@media(max-width:820px){.content-panel{padding:0 24px 24px}.top-row{margin-bottom:24px}}
+@media(max-width:560px){.content-panel{padding:0 16px 20px}.recent-skills-panel{padding:0 20px 20px}.recent-skills-panel .language-strip{padding:16px}}
+
+/* Match the light-mode Recent Skills card to the site's purple accent. */
+body.light .recent-skills-panel .language-strip{background:#6f82ed;border-color:#5b6fdb}
+body.light .recent-skills-panel .language-strip strong,
+body.light .recent-skills-panel .language-strip b,
+body.light .recent-skills-panel .language-strip p{color:#101820}
