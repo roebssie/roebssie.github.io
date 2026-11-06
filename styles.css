@@ -81,3 +81,6 @@ body.light .recent-skills-panel .language-strip p{color:#101820}
   .recent-skills-panel{padding:0 16px 20px}
   .recent-skills-panel .language-strip{padding:16px}
 }
+
+/* Add a small breathing gap above Recent Skills in both themes. */
+.recent-skills-panel{padding-top:8px}
