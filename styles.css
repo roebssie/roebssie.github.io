@@ -139,3 +139,14 @@ body.light .site-mark{border-color:#101820}
 
 /* Match the light-mode sidebar divider to the nearby gray text. */
 body.light .sidebar-rule{background:#4f5e68}
+
+/* Make GitHub and LinkedIn marks echo the rounded action tiles. */
+.quick-links a[aria-label="GitHub profile"],
+.quick-links a[aria-label="LinkedIn profile"]{align-items:center;gap:10px}
+.quick-links .link-icon{width:30px;height:30px;flex:0 0 30px;display:inline-flex;align-items:center;justify-content:center;border-radius:9px;background:#9ee66b;color:#17283b;font-family:var(--sans);font-size:14px;font-weight:800;line-height:1}
+.quick-links .github-icon svg{width:17px;height:17px;display:block;fill:currentColor}
+.quick-links .linkedin-icon{font-size:15px}
+body.light .quick-links .link-icon{background:#6f82ed;color:#101820}
+body.light .sidebar-rule{background:#4f5e68}
+.recent-skills-panel .language-strip>strong{text-align:center}
+.quick-links .relocation-note{display:inline-block;font-size:10px;line-height:1.4}
