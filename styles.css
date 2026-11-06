@@ -119,3 +119,14 @@ body.light .social-row a:hover{color:#101820;border-color:#6f82ed}
 body.light .recent-skills-panel .language-strip>strong,
 body.light .recent-skills-panel .recent-skill-item h4{color:#f5f7fa}
 body.light .recent-skills-panel .recent-skill-item{border-color:rgba(16,24,32,.5)}
+
+/* Compact desktop profile spacing so its bottom aligns with the service cards. */
+@media(min-width:821px){
+  .profile-sidebar{padding-top:24px;padding-bottom:18px}
+  .avatar{margin-bottom:16px}
+  .role{margin-bottom:16px}
+  .quick-links{gap:7px}
+  .social-row{margin-top:12px;margin-bottom:0;min-height:34px}
+  .sidebar-rule{margin:16px 0 12px}
+  .side-caption{margin:4px 0}
+}
