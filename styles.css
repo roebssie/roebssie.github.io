@@ -136,3 +136,6 @@ body.light .site-mark{border-color:#101820}
 
 /* Give the dark-mode Recent Skills card a softer charcoal fill. */
 .recent-skills-panel .language-strip{background:#30363d;border-color:#4b545e}
+
+/* Match the light-mode sidebar divider to the nearby gray text. */
+body.light .sidebar-rule{background:#4f5e68}
