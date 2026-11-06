@@ -130,3 +130,9 @@ body.light .recent-skills-panel .recent-skill-item{border-color:rgba(16,24,32,.5
   .sidebar-rule{margin:16px 0 12px}
   .side-caption{margin:4px 0}
 }
+
+/* Use a dark outline for the profile mark in light mode. */
+body.light .site-mark{border-color:#101820}
+
+/* Give the dark-mode Recent Skills card a softer charcoal fill. */
+.recent-skills-panel .language-strip{background:#30363d;border-color:#4b545e}
