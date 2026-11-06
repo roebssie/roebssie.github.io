@@ -103,3 +103,14 @@ body.light .recent-skill-item h4,body.light .recent-skill-item p{color:#101820}
 @media(min-width:821px){.profile-sidebar{margin-bottom:var(--page-bottom-space)}}
 @media(max-width:820px){.profile-sidebar{margin-bottom:0}}
 @media(max-width:560px){.profile-sidebar{border-radius:22px}}
+
+/* Keep the social profile links clearly visible beneath the contact details. */
+.social-row{display:flex;justify-content:center;align-items:center;gap:12px;margin:18px 0 2px;min-height:36px}
+.social-row a{width:34px;height:34px;display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--line);border-radius:50%;background:var(--panel);color:var(--ink);font-size:13px;line-height:1;transition:transform .18s ease,color .18s ease,border-color .18s ease}
+.social-row a:hover{color:var(--blue);border-color:var(--blue);transform:translateY(-2px)}
+body.light .social-row a{background:#edf1f0;color:#101820;border-color:#b8c5c8}
+body.light .social-row a:hover{color:#101820;border-color:#6f82ed}
+.recent-skills-panel{padding-top:12px}
+.recent-skills-grid{row-gap:18px}
+.recent-skill-item{padding-top:10px}
+@media(max-width:560px){.recent-skills-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.social-row{margin-top:14px}}
