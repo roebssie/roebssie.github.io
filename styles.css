@@ -150,3 +150,15 @@ body.light .quick-links .link-icon{background:#6f82ed;color:#101820}
 body.light .sidebar-rule{background:#4f5e68}
 .recent-skills-panel .language-strip>strong{text-align:center}
 .quick-links .relocation-note{display:inline-block;font-size:10px;line-height:1.4}
+
+
+/* Give every contact and profile mark the same accent tile treatment. */
+.quick-links a{align-items:center;gap:10px}
+.quick-links>.quick-link-location{display:flex;align-items:center;gap:10px;color:var(--muted);text-align:left}
+.quick-links>.quick-link-location>span:last-child{min-width:0;overflow-wrap:anywhere}
+.quick-links .link-icon{width:30px;height:30px;flex:0 0 30px}
+
+
+/* Keep Recent Skills separators bright in dark mode and dark in light mode. */
+.recent-skills-panel .recent-skill-item{border-color:rgba(255,255,255,.55)}
+body.light .recent-skills-panel .recent-skill-item{border-color:rgba(16,24,32,.5)}
